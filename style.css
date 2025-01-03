@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    
+    height: 100vh;
+    background-image: url('img.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+/* .header_main */
+.header_main{
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: white;
+    width: 100%;
+}
+/* .header_child */
+.header_child{
+
+
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    padding: 20px 0px;
+    column-gap: 50px;
+
+}
+
+/* logo */
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 0px 30px;
+    margin: 0 20px;
+
+   
+}
+
+.logo i{
+font-size: 70px;
+
+}
+.logo i:hover{
+    font-size: 80px;
+}
+.logo h1{
+    font-size: 100px;
+    font-weight: 900;
+    letter-spacing: 1px;
+   
+}
+
+/* manu */
+
+.manu ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 0px 15px;
+}
+.manu ul > li{
+    list-style: none;
+}
+.manu ul > li > a{
+text-decoration: none;
+font-size: 100px;
+margin: 0 5px;
+text-align: center;
+color: black;
+transition: 3ms;
+
+}
+
+.manu ul > li > a:hover{
+    font-size:110px ;
+    background-color:black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.manu ul button{
+    cursor: pointer;
+    font-size: 100px;
+    border: none;
+    padding: 20px 30px;
+    background-color:white;
+    border: 2px solid black;
+    transition: 300ms;
+}
+
+.manu ul button:hover{
+    background-color: black;
+    color: white;
+}
+
+
+/* main_container */
+.main_container{
+    margin-left: 100px;
+    letter-spacing: 2px;
+    color: rgb(31, 29, 29);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 70px;
+   transform: translate(30px, 500px);
+
+}
+
+.main_container p{
+    margin: 60px 0px;
+}
+
+
+.main_container button{
+    margin-top: 50px;
+    font-size: 100px;
+background-color: black;
+color: aliceblue;
+border: none;
+padding: 20px 30px;
+cursor: pointer;
+
+}
+
+
+
+/* @media only screen and (min-width:768px){
+
+
+
+    .header_child{
+
+
+       display: flex;
+       flex-direction: column;
+    
+    }
+
+    .logo {
+
+        flex-direction: column;
+
+    
+       
+    }
+    .manu ul{
+        flex-direction: column;
+        gap: 0px 15px;
+       
+    }
+    
+}  */
